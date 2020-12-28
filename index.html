@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kingdom Hearts Piano</title>
+  </head>
+  <body>
+    <h1>Welcome to Kingdom Hearts</h1>
+    <button id="start-db" onclick="playAudio()" type="button">Play Dearly Beloved</button>
+    <button id="start-tt" onclick="playSong()" type="button">Play Traverse Town</button>
+  <button id="pause" onclick="pauseAudio()"  type="button">Pause Song</button>
+  
+    
+    <img height="400px" width="800px" src="https://miro.medium.com/max/3768/0*6S3t4lW2wMbWdVhR.png" alt="">
+    <div class="piano">
+      
+      <div data-note="C4" class="key white"></div>
+      <div data-note="D4" class="key black"></div>
+      <div data-note="Db4" class="key white"></div>
+      <div data-note="E4" class="key black"></div>
+      <div data-note="Eb4" class="key white"></div>
+      <div data-note="F4" class="key white"></div>
+      <div data-note="G4" class="key black"></div>
+      <div data-note="Gb4" class="key white"></div>
+      <div data-note="A4" class="key black"></div>
+      <div data-note="Ab4" class="key white"></div>
+      <div data-note="Bb4" class="key black"></div>
+      <div data-note="B4" class="key white"></div>
+
+      <audio id="C4" src="piano-Keys/C4.mp3"></audio>
+      <audio id="D4" src="piano-Keys/D4.mp3"></audio>
+      <audio id="Db4" src="piano-Keys/Db4.mp3"></audio>
+      <audio id="E4" src="piano-Keys/E4.mp3"></audio>
+      <audio id="Eb4" src="piano-Keys/Eb4.mp3"></audio>
+      <audio id="F4" src="piano-Keys/F4.mp3"></audio>
+      <audio id="G4" src="piano-Keys/G4.mp3"></audio>
+      <audio id="Gb4" src="piano-Keys/Gb4.mp3"></audio>
+      <audio id="A4" src="piano-Keys/A4.mp3"></audio>
+      <audio id="Ab4" src="piano-Keys/Ab4.mp3"></audio>
+      <audio id="Bb4" src="piano-Keys/Bb4.mp3"></audio>
+      <audio id="B4" src="piano-Keys/B4.mp3"></audio>
+
+      <audio id="dearlyBeloved" src="OST/1-01. Dearly Beloved.mp3"></audio>
+      <audio id="traverseTown" src="OSt/1-16. Traverse Town.mp3"></audio>
+
+
+   
+    
+    <script src="app.js"></script>
+  </body>
+  </html>
+  
